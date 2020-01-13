@@ -1,14 +1,21 @@
-.column {
-    background-color: #e84610;
-    border-radius: 3px;
-    height: 100px;
-    float: left;
-    width: 100%;
-    margin: 10px 0;
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+} 
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-@media (min-width: 992px) {
-    .column {
-        margin: 10px;
-        width: 30%;
-    }}
+main {
+    height: 100%;
+}
+
+section {
+    height: 100%;
+    background-color: #e84610;
+}
